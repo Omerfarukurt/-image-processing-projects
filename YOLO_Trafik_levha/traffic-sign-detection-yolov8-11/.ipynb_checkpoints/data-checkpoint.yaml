@@ -1,0 +1,8 @@
+# data.yaml içeriği
+path: C:/dl_proje/image_process/YOLO_Trafik_levha/traffic-sign-detection-yolov8-11 # Buraya klasörünün tam yolunu yaz
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 10
+names: ['hump', 'no entry', 'no overtaking', 'no stopping', 'no u turn', 'parking', 'roadwork', 'roundabout', 'speed limit 40', 'stop']
